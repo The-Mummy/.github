@@ -14,6 +14,7 @@ Other things to note are.
 + To push to the `main` branch, a pull request should be raised
 + Never commit `.env` or `.env.*` files. Create a `.gitignore` file and immediately these `env` files for git to ignore
 + Before you write anything, begin by writing unit tests.
++ All services should have a `/healthz` endpoint to be used for health checks.
 + Don't burn yourself out. Remember to have fun while also learning.
 
 Have a wonderful time with us.
